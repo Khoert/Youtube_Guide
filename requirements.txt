@@ -9,3 +9,4 @@ Altair
 Vega
 Pytube
 Youtube-transcript-api
+google-api-python-client
