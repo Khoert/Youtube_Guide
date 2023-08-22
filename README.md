@@ -6,6 +6,6 @@ This app creates summaries of Youtube videos by the topic of your choice, given 
 ### Start
 
 ```shell
-py -m pip install -r requirements.txt
-py -m streamlit run path/to/YT_guide_v1.1.py
+python -m pip install -r requirements.txt
+python -m streamlit run path/to/YT_guide_v1.1.py
 ```
