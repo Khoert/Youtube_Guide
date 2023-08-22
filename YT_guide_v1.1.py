@@ -25,7 +25,7 @@ import re
 
 def intitialize():
     global youtube_key, youtube, summarizer, prefix, summary_suffix
-    youtube_key = "AIzaSyDEXIgeblgAo5WPAJPq8isfKBOuEew_0j0"
+    youtube_key = "YOUR_YOUTUBE_API_KEY"
     youtube = build('youtube', 'v3', developerKey=youtube_key)
     summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
     prefix = 'https://www.youtube.com/watch?v='
