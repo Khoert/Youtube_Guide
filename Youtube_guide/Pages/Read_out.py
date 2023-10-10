@@ -68,13 +68,13 @@ def generate_speech(text):
 #%%###################################################
 # selection section 
 #######################################################
-
+  
+    
 # test file selection
-current_directory = os.getcwd()  # Get the current working directory
-#st.write(current_directory)
-folder_name = os.path.join(current_directory, "output")  # Create the output folder path
-#st.write(folder_name)
-
+project_folder = os.path.dirname(os.path.abspath(__file__))
+parent_folder = os.path.dirname(project_folder)
+grandparent_folder = os.path.dirname(parent_folder)
+folder_name = os.path.join(grandparent_folder, "Output")
 
 # get topic list
 topic_list = extract_topics_from_files(folder_name)
@@ -137,7 +137,6 @@ def main():
                 if text:
                     audio_file = generate_speech(audio_text)
                     st.audio(audio_file)
-                    
             
 if __name__ == "__main__":
     main()
