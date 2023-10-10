@@ -15,7 +15,7 @@ Given a transcript exists a summary is generated.
 
 ![image](https://github.com/Khoert/Youtube_Guide/assets/140905959/065026f9-c71a-4d29-842d-685134225652)
 
-The summary itself is available in the page "Read_out"
+The summary itself is available in the page "Read_out", where you can also create an audio if you wish.
 
 ![image](https://github.com/Khoert/Youtube_Guide/assets/140905959/5298fd0e-62fe-433f-869f-bfebc3345b3a)
 
