@@ -1,5 +1,5 @@
 # Youtube_Guide
-This app creates summaries of Youtube videos by the topic of your choice, \bold{given} a transcript is available on Youtube. The web app is based on the Streamlit framework, while the summary is generated with the BART LLM model provided on Huggingface, see the https://huggingface.co/facebook/bart-large-cnn. Note, during the first run, the BART model is downloaded locally, this may take some time. 
+This app creates summaries of Youtube videos by the topic of your choice, given a transcript is available on Youtube. The web app is based on the Streamlit framework, while the summary is generated with the BART LLM model provided on Huggingface, see the https://huggingface.co/facebook/bart-large-cnn. Note, during the first run, the BART model is downloaded locally, this may take some time. 
 
 ![image](https://github.com/Khoert/Youtube_Guide/assets/140905959/c2862abd-fad9-48f6-97f5-9e274c81c55f)
 
