@@ -25,7 +25,7 @@ import json
 
 # Set LLM API base URL and API key
 API_BASE = "https://api.endpoints.anyscale.com/v1"
-API_KEY = "esecret_yupqgp23833hrh8q3rlih45gmz"
+API_KEY = "ANYSCALE_KEY"
 
 
 ####################################################
@@ -35,7 +35,7 @@ API_KEY = "esecret_yupqgp23833hrh8q3rlih45gmz"
 
 def intitialize():
     global youtube_key, youtube, summarizer, prefix, summary_suffix
-    youtube_key = "AIzaSyC5zU3GYH3lCt0VnManA_IqTto4XHseqF0"
+    youtube_key = "YOUTUBE_KEY"
     youtube = build('youtube', 'v3', developerKey=youtube_key)
     prefix = 'https://www.youtube.com/watch?v='
     summary_suffix = "_summary.txt"
