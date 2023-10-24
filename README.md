@@ -1,17 +1,13 @@
 # Youtube_Guide
-This app creates summaries of Youtube videos by the topic of your choice, given a transcript is available on Youtube. The web app is based on the Streamlit framework, while the summary is generated with a Llama-2 70B model provided by the Anyscale API, see https://www.anyscale.com/.  
+This app creates summaries of Youtube videos by the topic of your choice, given a transcript is available on Youtube. 
 
-![image](https://github.com/Khoert/Youtube_Guide/assets/140905959/c2862abd-fad9-48f6-97f5-9e274c81c55f)
+The web app is based on the Streamlit framework, that employs 2 additional APIs: the Youtube and the [Anyscale](https://www.anyscale.com/) API. 
+The former searches for the Youtube videos and the latter to provides high quality summaries from a Llama-2 70 B model. 
 
 Finally, to query Youtube videos you need to have a Youtube API key. For instructions see https://developers.google.com/youtube/v3/getting-started. This API key must be added to the script YT_guide_v1.1.py in line 28. 
 On the "YT guide" page you can enter your search term, for which Youtube videos should be summarized.
 
 
-
-Screenshot:
-![image](https://github.com/Khoert/Youtube_Guide/assets/140905959/82d2df27-4fd4-4ed3-9267-146fbcbe1987)
-
-Given a transcript exists a summary is generated. 
 
 
 
