@@ -27,7 +27,7 @@ On the "Read out" page you can retrieve all summaries you generated before. Addi
 + Install all packages required for the app with the Powershell command: "python -m pip install -r requirements.txt"
 
 3. Add the API keys
-+ Outside of Powershell open the file YT_guide_v2.py of the installed repository with e.g. text editor
++ Outside of Powershell open the file YT_guide_v2.py of the installed repository with e.g. a text editor
 + Add the Anyscale API key in line 28 of  script YT_guide_v2.py
 + Add the Youtube API key in line 38 of  script YT_guide_v2.py       
 
