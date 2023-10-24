@@ -17,9 +17,9 @@ On the "Read out" page you can retrieve all summaries you generated before. Addi
 
 
 ### Installation
-1. Clone the repository 
-1.1 Open Powershell and go to the location of your choice e.g. C:\Users\xyz
-1.2 Clone the repository with the Powershell command "git clone https://github.com/Khoert/Youtube_Guide.git"
++ Clone the repository 
+++ Open Powershell and go to the location of your choice e.g. C:\Users\xyz
+++ Clone the repository with the Powershell command "git clone https://github.com/Khoert/Youtube_Guide.git"
 2. Installing   
    2.1. In Powershell change to the installed repository, where requirements.txt is located
    2.2. Install all packages required for the app with the command: "python -m pip install -r requirements.txt"
