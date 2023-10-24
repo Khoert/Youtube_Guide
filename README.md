@@ -9,15 +9,11 @@ The latter to provides high quality summaries from a Llama-2 70 B model at a low
 
 To use the Youtube Guide you need to sign on for both API keys. 
 For the Youtube API key instructions see https://developers.google.com/youtube/v3/getting-started. 
-The Anyscale API instructions are available on https://app.endpoints.anyscale.com/. 
+The Anyscale API instructions are available at https://app.endpoints.anyscale.com/. 
 
-
-This API key must be added to the script YT_guide_v2.py in line 38. 
-This API key must be added to the script YT_guide_v2.py in line 28. 
-
-## Usage:
+## Usage
 On the "YT guide" page you can enter your search term, for which Youtube videos will be summarized.  
-On the "Read out" page you can retrieve all summaries you generated before. Addtionally you can generate an audio instead of reading the summary. 
+On the "Read out" page you can retrieve all summaries you generated before. Additionally you can generate an audio instead of reading the summary. 
 
 
 ### Installation
