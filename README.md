@@ -16,7 +16,7 @@ On the "YT guide" page you can enter your search term, for which Youtube videos 
 On the "Read out" page you can retrieve all summaries you generated before. Additionally you can generate an audio instead of reading the summary. 
 
 
-### Installation
+## Installation
 1. Clone the repository   
 
 + Open Powershell and go to the location of your choice e.g. C:\Users\xyz
