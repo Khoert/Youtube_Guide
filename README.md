@@ -27,6 +27,7 @@ On the "Read out" page you can retrieve all summaries you generated before. Addt
 2. Installing   
    2.1. Change to the installed repository, where requirements.txt is located
    2.2. Install all packages required for the app with the command: "python -m pip install -r requirements.txt"
-3. Running the app
-   3.1. After installation change to the installed repository, where YT_guide_v2.py is located
+3.    
+4. Running the app
+   3.1. Change to the location in the installed repository, where YT_guide_v2.py is located
    3.2. Start the app in your web browser with the command "python -m streamlit run path/to/YT_guide_v2.py"
