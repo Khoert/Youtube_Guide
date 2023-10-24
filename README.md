@@ -31,7 +31,7 @@ On the "Read out" page you can retrieve all summaries you generated before. Addi
 + Add the Anyscale API key in line 28 of  script YT_guide_v2.py
 + Add the Youtube API key in line 38 of  script YT_guide_v2.py       
 
-4. Running the app
+## Running the app in your web browser 
 + Go back to Powershell
 + Change to the location in the installed repository, where YT_guide_v2.py is located
 + Start the app in your web browser with the command "python -m streamlit run path/to/YT_guide_v2.py"
