@@ -16,6 +16,9 @@ On the "YT guide" page you can enter your search term, for which Youtube videos 
 On the "Read out" page you can retrieve all summaries you generated before. Additionally, you can generate an audio instead of reading the summary. 
 
 
+https://github.com/Khoert/Youtube_Guide/assets/140905959/6f625dbc-3ac1-4c42-be2b-553802620788
+
+
 ## Installation
 1. Clone the repository   
 
