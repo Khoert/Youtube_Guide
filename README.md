@@ -13,8 +13,7 @@ The Anyscale API instructions are available at https://app.endpoints.anyscale.co
 
 ## Usage
 On the "YT guide" page you can enter your search term, for which Youtube videos will be summarized.  
-On the "Read out" page you can retrieve all summaries you generated before. Additionally you can generate an audio instead of reading the summary. 
-
+On the "Read out" page you can retrieve all summaries you generated before. Additionally, you can generate an audio instead of reading the summary. 
 
 
 ## Installation
