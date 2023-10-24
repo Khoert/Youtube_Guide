@@ -23,13 +23,15 @@ On the "Read out" page you can retrieve all summaries you generated before. Addi
 + Clone the repository with the Powershell command "git clone https://github.com/Khoert/Youtube_Guide.git"
 
 2. Installing   
-   2.1. In Powershell change to the installed repository, where requirements.txt is located
-   2.2. Install all packages required for the app with the command: "python -m pip install -r requirements.txt"
++ In Powershell change to the installed repository, where requirements.txt is located
++ Install all packages required for the app with the command: "python -m pip install -r requirements.txt"
+
 3. Add the API keys
-   3.1. Outside of Powershell open the file YT_guide_v2.py of the installed repository
-   3.2. Add the Anyscale API key in line 28 of  script YT_guide_v2.py
-   3.3. Add the Youtube API key in line 38 of  script YT_guide_v2.py       
++ Outside of Powershell open the file YT_guide_v2.py of the installed repository
++ Add the Anyscale API key in line 28 of  script YT_guide_v2.py
++ Add the Youtube API key in line 38 of  script YT_guide_v2.py       
+
 4. Running the app
-   3.1. Go back to Powershell
-   3.2. Change to the location in the installed repository, where YT_guide_v2.py is located
-   3.2. Start the app in your web browser with the command "python -m streamlit run path/to/YT_guide_v2.py"
++ Go back to Powershell
++ Change to the location in the installed repository, where YT_guide_v2.py is located
++ Start the app in your web browser with the command "python -m streamlit run path/to/YT_guide_v2.py"
