@@ -2,7 +2,7 @@
 This app creates summaries of Youtube videos by the topic of your choice, given a transcript is available on Youtube. 
 
 The web app is based on the Streamlit framework, that employs 2 additional APIs: 
-- the Youtube
+- the Youtube API
 - and the [Anyscale](https://www.anyscale.com/) API. 
 
 The latter to provides high quality summaries from a Llama-2 70 B model at a low cost of 1$ per 1 Mio tokens.  
