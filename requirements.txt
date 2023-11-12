@@ -1,12 +1,6 @@
-streamlit
+streamlit==1.27.2
 gTTS
-transformers
 oauth2client<4.0.0
 Langchain
-Tensorflow
-Torch
-Altair
-Vega
-Pytube
 Youtube-transcript-api
 google-api-python-client
