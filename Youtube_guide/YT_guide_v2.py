@@ -41,7 +41,7 @@ def intitialize():
     summary_suffix = "_summary.txt"
     
 
-@st.cache_data
+@st.cache
 def perform_query(query, by_date=False, num_results=3):
     # this function gets a list of youtube videos based on the given query 
     if by_date:
@@ -68,7 +68,7 @@ def perform_query(query, by_date=False, num_results=3):
     return response
 
 
-@st.cache_data
+@st.cache
 def get_details(video_id):
     request = youtube.videos().list(
         id=video_id,
@@ -78,7 +78,7 @@ def get_details(video_id):
     return response
 
 
-@st.cache_data
+@st.cache
 def llama_summarizer(txt):
     prompt = "Can you summarize the following video transacript with max 25 percent of its length: \n" + txt
     
@@ -103,7 +103,7 @@ def llama_summarizer(txt):
     json=body)    
     return response
 
-@st.cache_data
+@st.cache
 def llama_retrieve_string_response(bytes_output):
   """Retrieves the string response in the "content" ignoring the bullet points.
 
@@ -153,7 +153,7 @@ def llama_get_summary(docs, name):
 
 
 # Function to save summary to a text file
-@st.cache_data
+@st.cache
 def save_summary_to_file(name, summary):
     project_folder = os.path.dirname(os.path.abspath(__file__))  # Get the absolute path of the project folder
     folder_name = os.path.join(project_folder, "Output")  
@@ -169,7 +169,7 @@ def save_summary_to_file(name, summary):
 
 
 # Function to create header information of the summary file
-@st.cache_data
+@st.cache
 def create_summary_header(current_title, current_v_length, current_url):
     info_1 = "This is a summary of the video with title: " + current_title + ". "
     info_2 = "The length of the video is: " + current_v_length + ". "
@@ -178,13 +178,13 @@ def create_summary_header(current_title, current_v_length, current_url):
     return header_txt
 
 # Function to capitalize each letter in string
-@st.cache_data
+@st.cache
 def capitalize_letters(string):
     capitalized_string = string.upper()
     return capitalized_string
 
 # Function to join all transcript texts from youtube_transcript_api
-@st.cache_data
+@st.cache
 def join_all_text_pieces(text_data):
   """Joins all text pieces in a list of dictionaries into a single string.
 
