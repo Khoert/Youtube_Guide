@@ -35,12 +35,7 @@ https://github.com/Khoert/Youtube_Guide/assets/140905959/6f625dbc-3ac1-4c42-be2b
 + In Powershell change to the installed repository, where requirements.txt is located
 + Install all packages required for the app with the Powershell command: "python -m pip install -r requirements.txt"
 
-3. Add the API keys
-+ Outside of Powershell open the file YT_guide_v2.py of the installed repository with e.g. a text editor
-+ Add the Anyscale API key in line 28 of  script YT_guide_v2.py
-+ Add the Youtube API key in line 38 of  script YT_guide_v2.py       
-
 ## Running the app in your web browser 
 + Go back to Powershell
 + Change to the location in the installed repository, where YT_guide_v2.py is located
-+ Start the app in your web browser with the command "python -m streamlit run path/to/YT_guide_v2.py"
++ Start the app in your web browser with the command "python -m streamlit YT_guide_v1.py" in the directory of the file
