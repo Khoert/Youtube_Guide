@@ -12,6 +12,12 @@ For the Youtube API key instructions see https://developers.google.com/youtube/v
 The Anyscale API instructions are available at https://app.endpoints.anyscale.com/. 
 
 ## Usage
+
+First, enter the Youtube and Anyscale API keys on the right side. 
+
+Screenshot 2023-12-02 at 18.27.03
+
+
 On the "YT guide" page you can enter your search term, for which Youtube videos will be summarized.  
 On the "Read out" page you can retrieve all summaries you generated before. Additionally, you can generate an audio instead of reading the summary. 
 
