@@ -15,7 +15,7 @@ The Anyscale API instructions are available at https://app.endpoints.anyscale.co
 
 First, enter the Youtube and Anyscale API keys on the right side. 
 
-Screenshot 2023-12-02 at 18.27.03
+<img width="800" alt="Screenshot 2023-12-02 at 19 29 11" src="https://github.com/Khoert/Youtube_Guide/assets/140905959/555cbb2f-17b8-40bc-b8fb-dccd05246bde">
 
 
 On the "YT guide" page you can enter your search term, for which Youtube videos will be summarized.  
