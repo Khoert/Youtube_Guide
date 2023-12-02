@@ -37,5 +37,5 @@ https://github.com/Khoert/Youtube_Guide/assets/140905959/6f625dbc-3ac1-4c42-be2b
 
 ## Running the app in your web browser 
 + Go back to Powershell
-+ Change to the location in the installed repository, where YT_guide_v2.py is located
-+ Start the app in your web browser with the command "python -m streamlit YT_guide_v1.py" in the directory of the file
++ Change to the location in the installed repository, where YT_guide_v1.py is located
++ Start the app in your web browser with the command "python -m streamlit YT_guide_v1.py"
